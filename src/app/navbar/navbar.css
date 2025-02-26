@@ -1,0 +1,85 @@
+.container {
+    margin-top: 1rem;
+    flex: 1;
+    width: 100%;
+    top: 0;
+    margin-bottom: 3rem;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+    font-size: 75px;
+    font-weight: bold;
+
+    /* sets the color of the text to a gradient */
+    background-image: linear-gradient(to right, #555, #333);
+    color: transparent;
+    background-clip: text;
+
+    margin: 10px;
+    left: 0;
+    flex: 1;
+}
+
+.socials_group {
+    flex: 1;
+    position: absolute;
+    right: 0;
+    margin-right: 2rem;
+}
+
+.top_row {
+    flex-direction: row;
+    display: flex;
+    margin-bottom: .5rem;
+}
+
+.bottom_row {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.linkedin {
+    height: 3rem;
+    content: url("../linkedin_grey.png");
+    flex: 1;
+    margin-right: .5rem;
+}
+
+.github {
+    height: 3rem;
+    content: url("../github_grey.png");
+    flex: 1;
+}
+
+.bottom_line {
+    flex: 1;
+    background-image: linear-gradient(to right, #888, #444, #888);
+    height: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .title {
+        background-image: linear-gradient(to right, #CCC, #FFF, #AAA);
+    }
+    .linkedin {
+        content: url("../linkedin_white.png");
+    }
+    .github {
+        content: url("../github_white.png");
+    }
+    .bottom_line {
+        background-image: linear-gradient(to right, #AAA, #CCC, #AAA);
+    }
+}
