@@ -10,7 +10,7 @@ export default function GmailButton() {
                 navigator.clipboard.writeText("bendoepk@gmail.com");
                 setEffect("gmail_animated");}}
             onAnimationEnd={() => {setEffect("gmail")}}>
-            <img />
+            <img alt=""/>
             <div className="copied_text">Copied!</div>
         </button>
     );
