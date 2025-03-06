@@ -1,0 +1,66 @@
+.content_container {
+    position: relative;
+    width: 30rem;
+    margin: 1rem;
+    margin-bottom: 3rem;
+    border-radius: 2rem;
+}
+
+.content_container h1 {
+    font-size: 35pt;
+    font-weight: bold;
+    justify-self: center;
+
+    /* sets the color of the text to a gradient */
+    background-image: linear-gradient(to right, #333, #555, #333);
+    color: transparent;
+    background-clip: text;
+}
+
+.repository_link {
+    margin-top: .5rem;
+    border: .25rem solid #444;
+    border-radius: 10rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.repository_link img{
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    margin-top: .25rem;
+    margin-left: .25rem;
+    margin-bottom: .25rem;
+    content: url("../github_grey.png");
+}
+
+.repository_link h2 {
+    font-size: 14pt;
+}
+
+@media (prefers-color-scheme: dark) {
+    .repository_link img {
+        content: url("../github_white.png");
+    }
+    .repository_link {
+        border: .25rem solid #AAA;
+    }
+    .content_container h1 {
+        background-image: linear-gradient(to right, #CCC, #FFF, #CCC);
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .content_container {
+        right: 0;
+        left: 0;
+        justify-self: center;
+        align-self: center;
+        width: 90%;
+    }
+    .content_container h1 {
+        text-align: center;
+    }
+}

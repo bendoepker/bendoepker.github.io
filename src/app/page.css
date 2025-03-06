@@ -1,0 +1,24 @@
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.content_div {
+    width: calc(100% - 12rem);
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width:1250) {
+    .content_div {
+        padding-right: calc((100% - 1250px) / 2);
+        padding-left: calc((100% - 1250px) / 2);
+    }
+}
+
+@media only screen and (max-width: 650) {
+    .content_div {
+        width: 100%;
+    }
+}
