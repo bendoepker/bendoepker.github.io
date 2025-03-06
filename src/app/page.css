@@ -10,14 +10,14 @@
     flex-direction: column;
 }
 
-@media (min-width:1250) {
+@media (min-width: 1250px) {
     .content_div {
         padding-right: calc((100% - 1250px) / 2);
         padding-left: calc((100% - 1250px) / 2);
     }
 }
 
-@media only screen and (max-width: 650) {
+@media only screen and (max-width: 650px) {
     .content_div {
         width: 100%;
     }
