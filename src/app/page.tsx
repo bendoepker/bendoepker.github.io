@@ -14,14 +14,18 @@ export default function Home() {
                     <Content side="right" name="ByteWave"
                         description="ByteWave is a work-in-progress audio application that will allow a user to input, output, and edit sound waves.
                                     The current 'big picture' goal is to get low-latency input and output through the use of WASAPI, Steinberg's ASIO, and DirectSound."
-                        link="https://github.com/bendoepker/ByteWave"/>
+                        link="https://github.com/bendoepker/ByteWave" />
                     <Content side="left" name="Windows ID Utility"
                         description="Windows ID Utility is a utility tool that I use to generate CLSID, IID, and GUID's to aid in WinAPI development in C.
                                     It was primarily developed to assist in working on ByteWave."
-                        link="https://github.com/bendoepker/win-id-generator"/>
-                    <Content side="right" name="My Website"
+                        link="https://github.com/bendoepker/win-id-generator" />
+                    <Content side="right" name="Zig Wav File Reader"
+                        description="This is a library for reading wav files written in Zig, it will become the primary way of reading wav files used in ByteWave and is planned
+                        to also expand to other file formats (.mp3 and AAC)"
+                        link="https://github.com/bendoepker/zig-wav-reader" />
+                    <Content side="left" name="My Website"
                         description="My website (This is where you are right now!) is the non-technical view of the projects that I am working on and that I have completed."
-                        link="https://github.com/bendoepker/bendoepker.github.io"/>
+                        link="https://github.com/bendoepker/bendoepker.github.io" />
                 </div>
             </div>
             <Footer/>
