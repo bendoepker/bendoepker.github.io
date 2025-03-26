@@ -19,10 +19,10 @@ export default function Home() {
                         description="Windows ID Utility is a utility tool that I use to generate CLSID, IID, and GUID's to aid in WinAPI development in C.
                                     It was primarily developed to assist in working on ByteWave."
                         link="https://github.com/bendoepker/win-id-generator" />
-                    <Content side="right" name="Zig Wav File Reader"
+                    <Content side="right" name="Wav File IO Library"
                         description="This is a library for reading wav files written in Zig, it will become the primary way of reading wav files used in ByteWave and is planned
-                        to also expand to other file formats (.mp3 and AAC)"
-                        link="https://github.com/bendoepker/zig-wav-reader" />
+                        to also expand to other file formats (.mp3 and AAC). It also has a library being created in parallel that is written in c."
+                        link="https://github.com/bendoepker/wav-io" />
                     <Content side="left" name="My Website"
                         description="My website (This is where you are right now!) is the non-technical view of the projects that I am working on and that I have completed."
                         link="https://github.com/bendoepker/bendoepker.github.io" />
